@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Poemas | VHS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-shell">
+    <header class="top-header">
+      <a href="index.html" class="brand-logo">VHS</a>
+      <button class="hamburger-btn" onclick="toggleDrawer()">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="page-hero-bar">
+      <h1>Poemas feitos por mim que são dedicados pra você</h1>
+      <span class="badge-tag">Só algumas baboseiras</span>
+    </div>
+
+    <main class="content-box">
+      <p class="section-desc">Algum não vão ficar tão bon, e como são poucos (3), acredito que dê pra ver certinho tudo.</p>
+
+      <div class="card">
+        <h2 class="card-title">A tua beleza</h2>
+        <div class="poem-block">
+Teu traço é feito de luz e de encanto,
+Um quadro vivo que o tempo parou.
+Nos teus sorrisos, eu me perco tanto,
+Na tua presença, o meu olhar pousou.
+
+​És a beleza que não se traduz,
+Feita de essência, de alma e de cor.
+Onde tu passas, derramas a luz,
+Desenhada à mão pelo próprio amor.
+        </div>
+      </div>
+
+
+     <div class="card">
+        <h2 class="card-title">Meu amor por ti</h2>
+        <div class="poem-block">
+Se o mar soubesse o tamanho do afeto,
+Teria inveja do que mora em mim.
+Meu coração encontrou o seu teto,
+Num sentimento que não tem mais fim.
+
+Eu te amo nas horas mais calmas,
+E no barulho da vida a girar.
+É um encontro de vidas e almas,
+Onde o meu único fim é te amar.
+        </div>
+      </div>
+
+     <div class="card">
+        <h2 class="card-title">A minha admiração</h2>
+        <div class="poem-block">
+​Eu te olho e vejo a força do vento,
+A coragem mansa de quem sabe ir.
+Admiro em ti cada pensamento,
+E a tua garra na hora de agir.
+
+​És fortaleza vestida de paz,
+Inspiras o mundo com o teu caminhar.
+Pelo ser humano incrível que és e que faz,
+Meu maior orgulho é te acompanhar.
+        </div>
+      </div>
+    </main>
+
+
+
+    
+   <div id="drawer" class="drawer-overlay">
+    <div class="drawer-backdrop" onclick="toggleDrawer()"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <span>Sumário</span>
+        <button class="close-btn" onclick="toggleDrawer()">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-item active"> Geral</a>
+        <a href="infancia.html" class="drawer-item"> Infância</a>
+        <a href="textos.html" class="drawer-item"> Textos Favoritos</a>
+        <a href="poemas.html" class="drawer-item"> Poemas</a>
+        <a href="hobbies.html" class="drawer-item"> Hobbies</a>
+        <a href="galeria.html" class="drawer-item"> Galeria</a>
+        <a href="resumo.html" class="drawer-item"> Resumo</a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

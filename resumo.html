@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Resumo | VHS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-shell">
+    <header class="top-header">
+      <a href="index.html" class="brand-logo">VHS</a>
+      <button class="hamburger-btn" onclick="toggleDrawer()">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="page-hero-bar">
+      <h1>Resumo</h1>
+      <span class="badge-tag">Conclusão</span>
+    </div>
+
+    <main class="content-box">
+      <p class="section-desc">Resumo.</p>
+
+      <div class="card" style="background: linear-gradient(160deg, #2a163a 0%, #150f22 100%);">
+        <h2 class="card-title">Resumo geral de todos o site</h2>
+        <p class="card-text">
+          Fazer esse projeto, de verdade, me conectou com a vontade programar, e principalmente, de fazer isso dedicado pra alguém que eu amo, e de verdade, resumir o conteúdo desse site, é difícil, até pra encontrar palavras pra isso depois de colocar todas as palavras espalhadas por 6 páginas. Enfim, espero que tenha gostado dessa dedicatória pra você, e do texto que fiz. Gostaria muito de citar seus jogos favoritos, filmes, séries e músicas e artistas favoritos, mas por conhecer pouco sobre a maioria e não querer ter opinião superficial, preferi me abstiner dessas ideias. Em um geral, planejo talvez adicionar mais e mais coisa nesse site sabe? de colocar mais memórias, fotos, poemas e muito mais coisas nele. Desculpe se algo não ficou bom, mas dei meu máximo nisso.
+        </p>
+      </div>
+    </main>
+
+        <div id="drawer" class="drawer-overlay">
+    <div class="drawer-backdrop" onclick="toggleDrawer()"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <span>Sumário</span>
+        <button class="close-btn" onclick="toggleDrawer()">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-item active"> Geral</a>
+        <a href="infancia.html" class="drawer-item"> Infância</a>
+        <a href="textos.html" class="drawer-item"> Textos Favoritos</a>
+        <a href="poemas.html" class="drawer-item"> Poemas</a>
+        <a href="hobbies.html" class="drawer-item"> Hobbies</a>
+        <a href="galeria.html" class="drawer-item"> Galeria</a>
+        <a href="resumo.html" class="drawer-item"> Resumo</a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

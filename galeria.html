@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Galeria | VHS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-shell">
+    <header class="top-header">
+      <a href="index.html" class="brand-logo">VHS</a>
+      <button class="hamburger-btn" onclick="toggleDrawer()">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="page-hero-bar">
+      <h1>Fotos</h1>
+      <span class="badge-tag">Galeria</span>
+    </div>
+
+    <main class="content-box">
+      <p class="section-desc">Bom, como a gente não tem tantas fotos juntos, principalmente por estudarmos apenas 1 ano juntos de forma contínua (2019, 2020 a gente teve pandemia).</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <div class="photo-placeholder">[ FOTO 01 ]</div>
+<div class="photo-placeholder" style="background-image: url('foto1.png'); background-size: cover; background-position: center;"></div>
+          <div class="photo-info">
+            <strong>Com professor Érico</strong>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="photo-placeholder">[ FOTO 02 ]</div>
+<div class="photo-placeholder" style="background-image: url('foto2.png'); background-size: cover; background-position: center;"></div>
+          <div class="photo-info">
+            <strong>Foto com a professora Maria Elizabeth</strong>
+          </div>
+        </div>
+
+
+    </main>
+
+      <div id="drawer" class="drawer-overlay">
+    <div class="drawer-backdrop" onclick="toggleDrawer()"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <span>Sumário</span>
+        <button class="close-btn" onclick="toggleDrawer()">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-item active"> Geral</a>
+        <a href="infancia.html" class="drawer-item"> Infância</a>
+        <a href="textos.html" class="drawer-item"> Textos Favoritos</a>
+        <a href="poemas.html" class="drawer-item"> Poemas</a>
+        <a href="hobbies.html" class="drawer-item"> Hobbies</a>
+        <a href="galeria.html" class="drawer-item"> Galeria</a>
+        <a href="resumo.html" class="drawer-item"> Resumo</a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

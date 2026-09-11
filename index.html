@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0910">
+  <title>Geral | VHS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-shell">
+
+    <header class="top-header">
+      <a href="index.html" class="brand-logo">Geral do site</a>
+      <button class="hamburger-btn" onclick="toggleDrawer()" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+
+    <div class="page-hero-bar">
+      <h1>Geral</h1>
+      <span class="badge-tag">Conteúdos</span>
+    </div>
+
+    <main class="content-box">
+      <p class="section-desc">Um pouco sobre o site que eu fiz dedicado pra você, Kamilly.</p>
+
+
+      <div class="card" style="background: linear-gradient(160deg, #251638 0%, #161022 100%);">
+        <span class="badge-tag" style="margin-bottom: 10px; display: inline-block;">Porque fiz isso?</span>
+        <h2 class="card-title" style="font-size: 19px;">Talvez uma resposta</h2>
+        <p class="card-text">
+          Acho que esse intuito de "projeto misterioso UAU" é meio burro KKKKKKKKKKKKKKKKKKKKK, não sei como você meio que nem suspeitou tanto :P, até reagi uma mensagem sem querer (😭), e enfim. Acho que você merecia uma homenagem, menção e dedicação MUITO especial pra você. Só achei essa forma de fazer o que eu mais gostava de fazer pra você ver e achar isso muito legal. Provavelmente vai ter muita coisa que fiz mais na correria, que pode não ter ficado muito bom. Enfim, te amo, e espero que goste do site!
+        </p>
+      </div>
+
+     <div id="drawer" class="drawer-overlay">
+    <div class="drawer-backdrop" onclick="toggleDrawer()"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <span>Sumário</span>
+        <button class="close-btn" onclick="toggleDrawer()">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-item active"> Geral</a>
+        <a href="infancia.html" class="drawer-item"> Infância</a>
+        <a href="textos.html" class="drawer-item"> Textos Favoritos</a>
+        <a href="poemas.html" class="drawer-item"> Poemas</a>
+        <a href="hobbies.html" class="drawer-item"> Hobbies</a>
+        <a href="galeria.html" class="drawer-item"> Galeria</a>
+        <a href="resumo.html" class="drawer-item"> Resumo</a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

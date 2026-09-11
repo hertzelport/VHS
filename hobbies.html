@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Hobbies | VHS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-shell">
+    <header class="top-header">
+      <a href="index.html" class="brand-logo">VHS</a>
+      <button class="hamburger-btn" onclick="toggleDrawer()">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="page-hero-bar">
+      <h1> Hobbies</h1>
+
+    </div>
+
+    <main class="content-box">
+      <p class="section-desc">Atividades que você faz e que eu acho muito foda.</p>
+
+      <div class="item-row">
+        <div class="item-left">
+          <strong>Leitura</strong>
+          <span>Sempre achei muito foda o fato que você lê. Mesmo que seja algo "comum", não conheço muitas pessoas que gostassem de ler igual você</span>
+        </div>
+        <span class="item-pill">&#9829;</span>
+      </div>
+
+      <div class="item-row">
+        <div class="item-left">
+          <strong>Edição</strong>
+          <span>Lembro como se fosse ontem em 2019, você editando vídeos e eu admirando aquilo querendo aprender a editar igual você, uma das melhores editoras que já conheci</span>
+        </div>
+        <span class="item-pill">&#9829;</span>
+      </div>
+
+      <div class="item-row">
+        <div class="item-left">
+          <strong>Desenho/Pintura</strong>
+          <span>Você sempre desenhou e pintou muito bem, isso desde a época do Fátima, e é algo que eu sempre admirei muito em você também.</span>
+        </div>
+        <span class="item-pill">&#9829;</span>
+      </div>
+    </main>
+
+    
+
+    <div id="drawer" class="drawer-overlay">
+    <div class="drawer-backdrop" onclick="toggleDrawer()"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <span>Sumário</span>
+        <button class="close-btn" onclick="toggleDrawer()">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-item active"> Geral</a>
+        <a href="infancia.html" class="drawer-item"> Infância</a>
+        <a href="textos.html" class="drawer-item"> Textos Favoritos</a>
+        <a href="poemas.html" class="drawer-item"> Poemas</a>
+        <a href="hobbies.html" class="drawer-item"> Hobbies</a>
+        <a href="galeria.html" class="drawer-item"> Galeria</a>
+        <a href="resumo.html" class="drawer-item"> Resumo</a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
