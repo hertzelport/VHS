@@ -7,7 +7,7 @@ function toggleDrawer() {
 
 
 function setTheme(theme) {
-  // Salva no navegador
+
   localStorage.setItem('vhs-theme', theme);
   
 
@@ -17,7 +17,7 @@ function setTheme(theme) {
       document.documentElement.setAttribute('data-theme', theme);
   }
 
-  // Atualiza os botões visuais
+
   document.querySelectorAll('.theme-btn').forEach(btn => {
       btn.classList.remove('active');
       if (btn.dataset.theme === theme) {
