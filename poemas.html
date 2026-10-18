@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Poemas | VHS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-shell">
+    <header class="top-header">
+      <a href="index.html" class="brand-logo">VHS</a>
+      <button class="hamburger-btn" onclick="toggleDrawer()">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="page-hero-bar">
+      <h1>Poemas feitos por mim que são dedicados pra você</h1>
+      <span class="badge-tag">Só algumas baboseiras</span>
+    </div>
+
+    <main class="content-box">
+      <p class="section-desc">Algum não vão ficar tão bons, mas espero de coração, que você goste de todos eles! </p>
+
+      <div class="card">
+        <h2 class="card-title">A tua beleza</h2>
+        <div class="poem-block">
+Teu traço é feito de luz e de encanto,
+Um quadro vivo que o tempo parou.
+Nos teus sorrisos, eu me perco tanto,
+Na tua presença, o meu olhar pousou.
+
+​És a beleza que não se traduz,
+Feita de essência, de alma e de cor.
+Onde tu passas, derramas a luz,
+Desenhada à mão pelo próprio amor.
+        </div>
+      </div>
+
+
+     <div class="card">
+        <h2 class="card-title">Meu amor por ti</h2>
+        <div class="poem-block">
+Se o mar soubesse o tamanho do afeto,
+Teria inveja do que mora em mim.
+Meu coração encontrou o seu teto,
+Num sentimento que não tem mais fim.
+
+Eu te amo nas horas mais calmas,
+E no barulho da vida a girar.
+É um encontro de vidas e almas,
+Onde o meu único fim é te amar.
+        </div>
+      </div>
+
+     <div class="card">
+        <h2 class="card-title">A minha admiração</h2>
+        <div class="poem-block">
+​Eu te olho e vejo a força do vento,
+A coragem mansa de quem sabe ir.
+Admiro em ti cada pensamento,
+E a tua garra na hora de agir.
+
+​És fortaleza vestida de paz,
+Inspiras o mundo com o teu caminhar.
+Pelo ser humano incrível que és e que faz,
+Meu maior orgulho é te acompanhar.
+        </div>
+      </div>
+    </main>
+
+<div class="card">
+<h2 class="card-title">O teu sorriso</h2>
+<div class="poem-block">
+Teu riso é o sol rompendo a neblina,
+Um céu aberto de puro esplendor.
+Tem uma força que tanto fascina,
+E que transborda em forma de amor.
+
+Quando sorris, o mundo silencia,
+E tudo o que é triste vai se apagar.
+És o motivo da minha alegria,
+O cais seguro onde quero ancorar.
+</div>
+</div>
+
+<div class="card">
+<h2 class="card-title">O teu olhar</h2>
+<div class="poem-block">
+Dentro dos teus olhos vejo o infinito,
+Um mar sereno, profundo e real.
+Não há no mundo um céu mais bonito,
+Nem outro brilho que lhe seja igual.
+
+Eles me guiam na fase mais dura,
+São os faróis do meu navegar.
+Neles encontro a maior ternura,
+E a paz imensa que me faz sonhar.
+</div>
+</div>
+
+
+
+<div class="card">
+<h2 class="card-title">A nossa história</h2>
+<div class="poem-block">
+Escrita em linhas de pura poesia,
+A nossa história é um lindo viver.
+Começa doce, como a melodia,
+Que nos convida a sonhar e crescer.
+
+Cada momento é um verso dourado,
+Cada promessa é um laço sem fim.
+Andar contigo assim, lado a lado,
+É o maior dom que nasceu para mim.
+</div>
+</div>
+
+<div class="card">
+<h2 class="card-title">A tua presença</h2>
+<div class="poem-block">
+Basta chegares e o mundo se aquieta,
+A tua alma é tecida de luz.
+És a mais bela canção do poeta,
+O sentimento que a alma conduz.
+
+Não precisas de contar um segredo,
+Para que eu sinta a tua energia.
+A tua calma desfaz o meu medo,
+E os meus dias se enchem de magia.
+</div>
+</div>
+
+<div class="card">
+<h2 class="card-title">O que me ensinas</h2>
+<div class="poem-block">
+Contigo aprendo o valor da verdade,
+A ter paciência e a saber cuidar.
+E mostras o dom da simplicidade,
+Dás-me coragem para eu poder voar.
+
+És um farol de constante valor,
+Que me ilumina e me faz crescer.
+No teu abraço descubro o amor,
+E a doçura que existe em viver.
+</div>
+</div>
+
+
+    
+   <div id="drawer" class="drawer-overlay">
+    <div class="drawer-backdrop" onclick="toggleDrawer()"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <span>Sumário</span>
+        <button class="close-btn" onclick="toggleDrawer()">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-item">Geral</a>
+        <a href="infancia.html" class="drawer-item">Infância</a>
+        <a href="textos.html" class="drawer-item">Textos Favoritos</a>
+        <a href="poemas.html" class="drawer-item active">Poemas</a>
+        <a href="hobbies.html" class="drawer-item">Hobbies</a>
+        <a href="galeria.html" class="drawer-item">Galeria</a>
+        <a href="jogos.html" class="drawer-item">Jogos</a>
+        <a href="resumo.html" class="drawer-item">Resumo</a>
+      </nav>
+     <div class="theme-selector">
+        <span>Aparência</span>
+        <div class="theme-buttons">
+            <button class="theme-btn" data-theme="dark" onclick="setTheme('dark')">Escuro</button>
+            <button class="theme-btn" data-theme="light" onclick="setTheme('light')">Claro</button>
+            <button class="theme-btn" data-theme="90s" onclick="setTheme('90s')">Anos 90</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
